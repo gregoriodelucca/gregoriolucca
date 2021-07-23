@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+        <!--custom css file link-->
+    <title>gregoriodelucca</title>
+</head>
+<body>
+ <!--header scetion inicio-->
+    <header>
+        <div class="user">
+            <img src="assets/img/eu.jpg" alt="user">
+             <h3 class="name">gregorio lucca</h3>
+             <p class="post">  FullStack  Developer  </p>
+        </div><!--user-->
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">inicio</a></li>
+                <li><a href="#sobre">pefil</a></li>
+                <li><a href="#contato">contatos</a></li>
+                <li><a href="#projeto">projeto</a></li>
+                <li><a href="#redesociais">redesociais</a></li>
+
+
+            </ul>
+        </nav><!--navbar-->
+    </header>
+
+ <!--header scetion final-->
+
+ <div id="menu" class="fas fa-bars"></div>
+
+<!--home section incio-->
+
+<section class="home" id="home">
+
+    <h3>Olá bem vindo.</h3>
+    <h1>eu <span> GREGORIO DE LUCCA</span></h1>
+    <p id="phome">Talento é vocação, é graça...e sucesso nada tem a ver com sorte, mas com determinação e trabalho.</p>
+    <a href="#sobre"><button class="btn">Apresentação  <i class="fas fa-user"></i></button></a>
+
+</section>
+<!--home section final--> 
+<!--sobre section inicio-->
+<section class="sobre" id="sobre">
+    <h1 class="heading"><span>Perfil</span></h1>
+    <div class="row">
+        <div class="info">
+            <h3> nome :<span> Gregório De Lucca Arandas Braga</span></h3>
+            <h3> idade :<span> 29 anos</span></h3>
+            <h3> profissão :<span> FullStack Web</span></h3>
+            <h3>  idioma :<span> inglês e espanhol</span></h3>
+
+            <a href="https://drive.google.com/file/d/1HYksCpdDuxkN8pLk3ak6SpnRbc--cxPL/view?usp=sharing"><button  class="btn">baixar cv <i class="fas fa-download"></i></button></a>
+       </div>
+       <div class="counter">
+           <div class="box">
+               <span>1+</span>
+               <h3>ano de experiência</h3>
+               <p> FullStack Developer </p>
+           </div>
+           <div class="box">
+            <span>1+</span>
+            <h3>projeto completo</h3>
+            <p>Este éo meu primeiro projeto web </p>
+        </div>
+        <div class="box">
+            <span>1+</span>
+            <h3>experiência com  web </h3>
+            <p>suporte linux(Redhat), banco de dados(mysql)  </p>
+        </div>
+       </div>
+    </div>
+ <!--contato section inicio-->
+ <section class="contato" id="contato">
+    <h1 class="heading"><span>contato</span></h1>
+    <div class="row">
+        <div class="content">
+            <h3 class="title">informação de contato. </h3>
+            <div class="info">
+                <a href="mailto:gregoriodelucca.com.br@gregoriodelucca.com.br"><i  class="fas fa-envelope"></i>gregoriodelucca@gmail.com<a>
+                <a href="https://api.whatsapp.com/send?phone=5511959855996"> <i class="fab fa-whatsapp"></i> (11)95985-5996(whatsapp)</a>
+                <a href="https://goo.gl/maps/Uqjo8pe1mHczYt3NA" id="map"> <i class="fas fa-map-marker-alt"></i>Brasil, São Paulo, mooca, Bairro : vila carnero</a>
+                
+            </div>
+        </div>
+        <form action="">
+            <input type="text" placeholder="nome" class="box">
+            <input type="email" placeholder="email" class="box">
+            <input type="text" placeholder="projeto" class="box">
+            <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="mensagem"></textarea>
+            <button type="submit" class="btn"> enviar <i class="fas fa-paper-plane"></i></button>
+        </form>
+    </div>
+ </section>
+<!--contato section final-->    
+</section>
+<!--sobre section final-->
+<section class="projeto" id="projeto">
+    <h1 class="heading">projeto</h1>
+    <p> Aqui são projeto eu fiz em javascript</p>
+    <div class="row">
+        <div class="box">
+                <a href="https://gregoriodelucca.github.io/relogiojs/">Relógiojs</a>
+        </div>
+
+    </div>
+
+</section>
+
+ <!--redesociais section inicio-->
+ <section class="redesociais" id="redesociais">
+    <h1 class="heading"><span> rede sociais</span></h1>
+        <div class="row">
+            <div class="box">
+                <i class="fab fa-github"> <a href="https://github.com/Gregoriodelucca">github </a></i>
+                    <div class="box">
+                    <i class="fab fa-linkedin"><a href="https://www.linkedin.com/in/gregoriodelucca">linkedin</a>
+                    </i>
+                </div>
+                <div class="box">
+                    <i class="fab fa-instagram"><a href="https://www.instagram.com/gregorioluccadev/?hl=pt-br">instagram</a>
+                    </i>
+                </div>
+            </div>
+        </div>    
+</section>
+ <!--projeto section final-->
+ <!--projetos-->
+
+
+<!--scroll top button-->
+<a href="#home"></a>
+
+
+    
+    <!--jquery cdn link-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--custom js file link-->
+    <script src="js/script.js"></script>
+</body>
+</html>

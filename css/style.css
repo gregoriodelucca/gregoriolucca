@@ -4,6 +4,7 @@
     --blue: #3498db;
     --yellow:#f1c40f;
     --green:#2ecc71;
+    --red:#e74c3c;
 }
 
 *{
@@ -41,7 +42,7 @@ body{
 }
 section {
     min-height: 100vh;
-    padding: 1rem;
+    padding: 2rem;
 
 }
 
@@ -111,16 +112,16 @@ header .navbar{
 }
  header .navbar ul {
     list-style: none;
-    padding:1rem 3rem;
+    padding:2rem 4rem;
 }
 header .navbar ul li a{
     display: block;
     padding: 1rem;
-    margin: 1.5rem 0;
+    margin: 1.0rem 0;
     background: #333;
     color: #fff;
     font-size: 2rem;
-    border-radius: 5rem;
+    border-radius: 10rem;
 }
 header .navbar ul li a:hover{
     background: var(--blue) ;
@@ -198,7 +199,7 @@ header .navbar ul li a:hover{
 .sobre .row .counter .box {
     width: 20rem;
     background: #4b4b4b;
-    text-align: center;
+    text-align: right;
     padding: 2rem;
     margin: 2rem ;
 }
@@ -222,61 +223,6 @@ header .navbar ul li a:hover{
     display: flex;
     color: #fff;
 }
-.projeto .row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-
-}
-
-.projeto .row .cotent{
-    flex: 1 1 30rem;
-    padding: 4rem;
-    padding-bottom: 0;
-}
-
- 
-.projeto  i > .fab .fa-github {
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    cursor: pointer;
-}
-.projeto .fab{
-    font-size: 40px;
-    padding: 4rem ;
-    padding-bottom: 0;
-    color: white;
-    cursor: pointer;
-    display: flex;
-    flex-wrap: wrap;
-    cursor: pointer;
-}
-.projeto .fab:hover{
-    background: var(--green);
-}
-.projeto a{
-    padding: 2rem;
-    font-size: 10px;
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    cursor: pointer;
-}   
-
-
-.projeto a:hover{
-    background: var(--green) ;
-}
-
 .contato .row {
     display: flex;
     align-items: center;
@@ -295,13 +241,14 @@ header .navbar ul li a:hover{
     margin-bottom: 4rem;
 }
 .contato .row form .box{
-    padding: 1.5rem;
+    padding: 1.2rem;
     margin: 1rem;
     background: #3333;
     color: #fff;
     text-transform:none;
-    font-size: 1.7rem;
+    font-size: 1.0rem;
     width: 100%;
+    align-items: center;
 }
 .contato .row form .box::placeholder{
     text-transform: capitalize;
@@ -342,13 +289,114 @@ header .navbar ul li a:hover{
     padding-right: 1rem;
     color: var(--yellow);
 }
+.projeto 
+{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0 15rem;
+}
+.projeto .row
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+.projeto .row .box
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+.projeto h1
+{
+    display: flex;
+    justify-content: center;
+
+    color: var(--yellow);
+}
+.projeto p{
+    margin-top: 5rem;
+    font-family: 'Poppins';
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    color: white;
+}
+.projeto a {
+    margin-top: 2.5rem;
+    padding: 1rem 3rem ;
+    background: var(--red);
+    color: #fff;
+    cursor: pointer;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+.projeto a:hover{
+    background-color: var(--blue);
+}
 
 
+.redesociais .row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.redesociais .row .cotent{
+    flex: 1 1 10rem;
+    padding: 2rem;
+    padding-bottom: 0;
+    justify-content: center;
+}
+
+ 
+.redesociais  i > .fab .fa-github {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    justify-content: right;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.redesociais .fab{
+    font-size: 40px;
+    padding: 2rem ;
+    padding-bottom: 0;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.redesociais .fab:hover{
+    color: var(--blue);
+}
+
+.redesociais .box a{
+    padding: 2rem;
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    display: block;
+    justify-content: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+}   
 
 
-
-
-
+.redesociais a:hover{
+    color: var(--blue);
+}
 
 
 
@@ -395,13 +443,15 @@ header .navbar ul li a:hover{
     .sobre .row .counter .box {
         width: 100%;
     }
-    .projeto .box-container .box {
+    .redesociais .box-container .box {
         width: 100%;
     }
     .contato .row form{
         margin: 3rem 0;
     }
-
+    .projeto .row .box {
+        width: 100%;
+    }
 }
 
 
